@@ -1,4 +1,4 @@
-FROM ros:foxy-ros-base-focal #from foxy ros-base
+FROM ros:foxy-ros-base-focal
 
 RUN apt update && apt-get install ros-foxy-desktop -y
 
